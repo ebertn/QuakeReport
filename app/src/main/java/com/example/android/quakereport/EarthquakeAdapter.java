@@ -44,7 +44,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         textContainer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //openWebPage(currentEarthquake.getURL());
+                openWebPage(currentEarthquake.getURL());
             }
         });
 
